@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: #0BD6A0;
+}
+
+.yellow {
+ background-color: #FFD166;
+}
+
+.red {
+  background-color: #F0466F;
+}
+
+.blue {
+  background-color: #1389B2;
+}
