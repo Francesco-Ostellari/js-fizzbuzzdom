@@ -9,18 +9,10 @@ Applica uno stile differente a seconda del valore dell’indice per i multipli d
 */
 
 
-/* Scrivi un programma che stampi in console i numeri da 1 a 100.
-MILESTONE 1
-Per i multipli di 3 stampi “Fizz” al posto del numero e per i multipli di 5 stampi Buzz.
-Per i numeri che sono sia multipli di 3 che di 5 stampi FizzBuzz. */
-
-
-/* MILESTONE 2
-Dato un container nel DOM, appendi un elemento html con il numero o la stringa corretta. */
-
+// recupero la classe container dall'html
 const container = document.querySelector('.container');
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) { //Scrivi un programma che stampi in console i numeri da 1 a 100.
   const element = document.createElement('div');
   element.classList.add('box');
 
@@ -45,5 +37,5 @@ for (let i = 1; i <= 100; i++) {
     element.innerHTML = i;
     element.classList.add('blue');
   }
-  container.append(element);
+  container.append(element); // Dato un container nel DOM, appendi un elemento html con il numero o la stringa corretta.
 }

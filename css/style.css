@@ -3,10 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #083B4C;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  padding: 30px;
+}
+
+
+/* MILESTONE 3
+Applica uno stile differente a seconda del valore dell’indice per i multipli di 3, per i multipli di 5 e per i valori che sono sia multipli di 3 che di 5.
+*/
+
 .container {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 20px;
   width: 80%;
   margin: 0 auto;
 }
